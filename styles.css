@@ -1,0 +1,140 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header Section */
+.header {
+  background: #00539C;
+  color: white;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+}
+
+.header p {
+  font-size: 1.2rem;
+}
+
+.cta-btn {
+  background-color: #FFD700;
+  color: black;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+/* Course Features Section */
+.course-features {
+  background-color: #f9f9f9;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.course-features ul {
+  list-style: none;
+  padding: 0;
+}
+
+.course-features li {
+  margin: 10px 0;
+  font-size: 1.1rem;
+}
+
+/* Course Timeline/Module Breakdown */
+.course-timeline {
+  background-color: #eaf4f9;
+  padding: 40px 0;
+}
+
+.module {
+  margin-bottom: 20px;
+}
+
+.module h3 {
+  font-size: 1.5rem;
+}
+
+.module p {
+  font-size: 1.1rem;
+}
+
+/* Testimonials Section */
+.testimonials {
+  background-color: #f9f9f9;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.testimonial {
+  margin: 20px 0;
+}
+
+.testimonial p {
+  font-style: italic;
+}
+
+/* FAQ Section */
+.faq {
+  padding: 40px 0;
+}
+
+.faq-item {
+  margin-bottom: 10px;
+}
+
+.faq-question {
+  background-color: #00539C;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+}
+
+.faq-answer {
+  display: none;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+.faq-answer p {
+  margin: 0;
+}
+
+/* Footer Section */
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.footer ul li a {
+  color: white;
+  text-decoration: none;
+}
